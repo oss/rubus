@@ -4,17 +4,17 @@
 	require_once('simplexml.php');
     require_once('textio.php');
 
-	if(@$_REQUEST['twilio'] == 1)
-	{
-		require_once('textio.php');
-		require_once('twilio.php');
+    if(!empty($_REQUEST['Body']))
+    {
+        $_GET['s'] = $_REQUEST['Body'];
+        $_REQUEST['s'] = $_REQUEST['Body'];
+    }
 
-		$_GET['s'] = $_REQUEST['Body'];
-		$_REQUEST['s'] = $_REQUEST['Body'];
-
-		$_REQUEST['q'] = $_REQUEST['From'];
-		$_GET['q'] = $_REQUEST['From'];
-	}
+    if(!empty($_REQUEST['From']))
+    {
+        $_REQUEST['q'] = $_REQUEST['From'];
+        $_GET['q'] = $_REQUEST['From'];
+    }
 
 	function nice_name($str)
 	{
