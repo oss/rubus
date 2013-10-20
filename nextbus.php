@@ -1,4 +1,4 @@
-<?php 
+<?php
 	ini_set('display_errors', 0);
 	//error_reporting(E_ALL|E_STRICT);
 	require_once('simplexml.php');
@@ -25,7 +25,7 @@
 		{
 			if($i == 0) $rv .= $val.' ';
 			else $rv .= $val[0];
-			$i++; 
+			$i++;
 		}
 		return strtoupper($rv);
 	}
@@ -47,18 +47,18 @@
 	$_GET['s'] = strip_start($_GET['s'], 'ru bus');
 
     # if we don't have a term here, let's assume it's help.
-    
+
 	if(!$_GET["s"] || $_GET["s"] == "") $_GET["s"] = "help";
 	$word = trim(strtolower($_GET["s"]));
 	$original = trim(strtolower($_GET["s"]));
 
 	ob_start();
-	for(;;) 
+	for(;;)
 	{
 		switch($word)
 		{
 			case "qua":
-				if(strpos($original, "drop") !== FALSE) 
+				if(strpos($original, "drop") !== FALSE)
 					$stopIds[] = 1027;
 				else
 					$stopIds[] = 1030;
@@ -395,6 +395,7 @@
 			case "livingston student center":
 			case "livingston":
 				$stopIds[] = 1029;
+				$stopIds[] = 1058;
 				break;
 
 			case "rsc":
@@ -495,7 +496,7 @@
 			case "bsu":
 			case "bsuites":
 				$stopIds[] = 1007;
-				break;	
+				break;
 
 			case "buell":
 			case "bue":
@@ -509,7 +510,7 @@
 			case "lsm":
 			case "l.s":
 				$stopIds[] = 1006;
-				break;	
+				break;
 
 			case "davidson":
 			case "david":
@@ -520,11 +521,11 @@
 				$stopIds[] = 1023;
 				break;
 
-			case "bsc": 
-			case "bcc": 
-			case "busch": 
-			case "bush": 
-			case "b": 
+			case "bsc":
+			case "bcc":
+			case "busch":
+			case "bush":
+			case "b":
 				$stopIds[] = 1056;
 				$stopIds[] = 1008;
 				break;
@@ -538,7 +539,7 @@
 			case "wes":
 				$stopIds[] = 1024;
 				break;
-			
+
 			case "qgjmt":
 				echo "Call me at 973-862-7118 to receive $500 <br />";
 				exit;
@@ -549,7 +550,7 @@
 		if(count($stopIds)) break;
 
         # if the word is equal to the first 3 letters we couldn't find a matching stop.
-		if($word == substr($word, 0, 3)) 
+		if($word == substr($word, 0, 3))
 		{
 			echo "Usage: 'RUBUS [stopname]'\n";
 			echo "Think of a word that represents a stop, it will prolly work\n";
@@ -563,7 +564,7 @@
 	{
 		$counter = 0;
         # for each stopID under this stop.
-		foreach($stopIds as $i) 
+		foreach($stopIds as $i)
 		{
 			$url = "http://webservices.nextbus.com/service/publicXMLFeed?a=rutgers&command=predictions&stopId=".$i;
 			$xml = new XMLParser(file_get_contents($url));
@@ -596,7 +597,7 @@
 						echo "\n";
 				}
 			}
-			$counter++;	
+			$counter++;
 		}
 	}
 	else
