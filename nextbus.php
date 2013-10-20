@@ -410,6 +410,7 @@
 			case "cac":
 			case "ccc":
 				$stopIds[] = 1062;
+				$stopIds[] = 1000;
 				break;
 
 			case "sac":
