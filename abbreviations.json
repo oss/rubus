@@ -4,7 +4,7 @@
             "ar",
             "arc",
             "all",
-            "ali",
+            "ali"
         ],
         "Biel Road": [
             "biel",
@@ -12,20 +12,20 @@
             "bei",
             "broad",
             "biel road",
-            "bielroad",
+            "bielroad"
         ],
         "Bravo Supermarket": [
             "bra",
             "cto",
             "c t",
-            "c-t",
+            "c-t"
         ],
         "Buell Apartments": [
             "bue",
             "bap",
             "bapts",
             "buell",
-            "bes",
+            "bes"
         ],
         "Busch Campus Center": [
             "bcc",
@@ -33,33 +33,36 @@
             "bus",
             "bush",
             "b",
-            "busch",
+            "busch"
         ],
         "Busch Suites": [
+            "bus",
             "sui",
             "bsu",
             "bs",
             "suites",
             "bsuites",
-            "busch suites",
+            "busch suites"
         ],
         "Cabaret Theatre": [
             "cab",
             "cth",
-            "jam",
+            "jam"
         ],
         "College Hall": [
+            "col",
             "cha",
             "c",
             "dcc",
             "college hall",
-            "dou",
+            "dou"
         ],
         "Colony House": [
+            "col",
             "colony",
             "colony house",
             "chouse",
-            "cho",
+            "cho"
         ],
         "Davidson": [
             "dav",
@@ -67,7 +70,7 @@
             "dvdson",
             "dvdsn",
             "david",
-            "davidson",
+            "davidson"
         ],
         "Food Sciences Building": [
             "food",
@@ -75,7 +78,7 @@
             "foo",
             "fsci",
             "fsb",
-            "fsc",
+            "fsc"
         ],
         "Gibbons": [
             "new",
@@ -85,14 +88,14 @@
             "gbons",
             "gibbons",
             "new gibbons",
-            "newgibbons",
+            "newgibbons"
         ],
         "Henderson": [
             "hen",
             "hap",
             "hend",
             "henderson",
-            "hapts",
+            "hapts"
         ],
         "Hill Center": [
             "hil",
@@ -102,14 +105,14 @@
             "h",
             "plh",
             "physics",
-            "phy",
+            "phy"
         ],
         "Katzenbach": [
             "kat",
             "katz",
             "kac",
             "kba",
-            "katzenbach",
+            "katzenbach"
         ],
         "Liberty Street": [
             "lty",
@@ -117,20 +120,19 @@
             "lbu",
             "lbt",
             "lbr",
-            "lib",
+            "lib"
         ],
         "Library of Science": [
             "lsm",
             "lib",
             "libofsci",
-            "l.s",
+            "l.s"
         ],
         "Lipman Hall": [
-            "lip",
             "lma",
             "lip",
             "lha",
-            "lhall",
+            "lhall"
         ],
         "Livingston Plaza": [
             "beck",
@@ -139,22 +141,21 @@
             "pla",
             "rac",
             "lpl",
-            "liv",
+            "liv"
         ],
         "Livingston Student Center": [
             "lsc",
             "lcc",
             "livingston",
-            "liv",
+            "liv"
         ],
         "Nursing School": [
             "nursing",
             "nur",
             "nurse",
-            "nsc",
+            "nsc"
         ],
         "Paterson Street": [
-            "pat",
             "bk",
             "bki",
             "burger king",
@@ -164,7 +165,7 @@
             "pson",
             "paterson",
             "patterson",
-            "pso",
+            "pso"
         ],
         "Public Safety Building North": [
             "psb",
@@ -172,21 +173,14 @@
             "safety",
             "psa",
             "saf",
-            "pub",
+            "pub"
         ],
-        "Public Safety Building South": [
-            "psb",
-            "public",
-            "safety",
-            "psa",
-            "saf",
-            "pub",
-        ],
+        "Public Safety Building South": [],
         "Quads": [
             "q",
             "qua",
             "quad",
-            "quads",
+            "quads"
         ],
         "Red Oak Lane": [
             "pass",
@@ -199,16 +193,15 @@
             "pud",
             "red oak",
             "redoak",
-            "red oak lane",
+            "red oak lane"
         ],
         "Rockoff Hall": [
             "roc",
             "rockoff",
             "rockoff hall",
-            "rha",
+            "rha"
         ],
         "Rutgers Student Center": [
-            "rsc",
             "rut",
             "rsc",
             "col",
@@ -218,34 +211,34 @@
             "rutgers student center",
             "ccc",
             "cac",
-            "rcc",
+            "rcc"
         ],
         "Science Building": [
             "sci",
             "science",
             "science building",
             "sciences building",
-            "science buildings",
+            "science buildings"
         ],
         "Scott Hall": [
-           "sha",
-           "sco",
-           "sec",
-           "gre",
-           "tru",
-           "sct",
-           "s",
-           "mur",
-           "murray",
-           "scott",
-           "grease trucks",
+            "sha",
+            "sco",
+            "sec",
+            "gre",
+            "tru",
+            "sct",
+            "s",
+            "mur",
+            "murray",
+            "scott",
+            "grease trucks"
         ],
         "Stadium": [
             "football",
             "stadium",
             "wes",
             "sta",
-            "stdium",
+            "stdium"
         ],
         "Student Activities Center": [
             "sac",
@@ -259,14 +252,14 @@
             "act",
             "hardenbergh",
             "hard",
-            "har",
+            "har"
         ],
         "Train Station": [
-           "train",
-           "tst",
-           "train station",
-           "trn",
-           "tra",
+            "train",
+            "tst",
+            "train station",
+            "trn",
+            "tra"
         ],
         "Visitor Center": [
             "vis",
@@ -276,7 +269,7 @@
             "lot48",
             "lot 48",
             "lot48a",
-            "lot 48a",
+            "lot 48a"
         ],
         "Werblin Back Entrance": [
             "sonny",
@@ -285,19 +278,34 @@
             "webrlin",
             "wer",
             "web",
-            "son",
+            "son"
         ],
-        "Werblin Main Entrance": [],
+        "Werblin Main Entrance": [
+
+        ],
         "Zimmerli Arts Museum": [
             "zim",
             "zimm",
             "zimmli",
-            "zimmerli",
-        ],
+            "zimmerli"
+        ]
     },
     "merge": [
-        ["Werblin Main Entrance", "Werblin Back Entrance"],
-        ["Sciences Building", "Allison Road Classrooms"],
-        ["Rockoff Hall", "Bravo Supermarket"],
-    ],
+        [
+            "Werblin Main Entrance",
+            "Werblin Back Entrance"
+        ],
+        [
+            "Sciences Building",
+            "Allison Road Classrooms"
+        ],
+        [
+            "Rockoff Hall",
+            "Bravo Supermarket"
+        ],
+        [
+            "Public Safety Building North",
+            "Public Safety Building South"
+        ]
+    ]
 }
