@@ -1,0 +1,34 @@
+div.heading h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 80px;
+    font-weight: bold;
+}
+
+span.red {
+    color: rgb(180, 0, 0);
+}
+
+h2 {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 300;
+}
+
+h3 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 400;
+    margin-top: 30px;
+}
+
+h3 i {
+    opacity: 0.5;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serf;
+    font-size: 80px;
+    font-weight: 300;
+}
+
+p {
+    margin: 0px;
+}
