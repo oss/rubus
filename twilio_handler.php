@@ -5,7 +5,7 @@ function help()
 {
     $message = "Usage: 'RUBUS [stopname]'\n";
     $message .= "Stop names can be abbreviated titles\n";
-    $message .= "More info: http://rubus.vverma.net/\n";
+    $message .= "More info: http://oss.rutgers.edu/rubus\n";
 
     return $message;
 }
