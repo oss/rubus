@@ -217,7 +217,16 @@ function get_predictions_from_nextbus($route_config, $stops)
 
     //hit nextbus.
     $url = "http://webservices.nextbus.com/service/publicXMLFeed?a=rutgers&command=predictionsForMultiStops".$query;
-    $xml_str = file_get_contents($url);
+
+    $ch = curl_init();
+    curl_setopt($ch, CURLOPT_AUTOREFERER, TRUE);
+    curl_setopt($ch, CURLOPT_HEADER, 0);
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+    curl_setopt($ch, CURLOPT_URL, $url);
+
+    $xml_str = curl_exec($ch);
+
+    curl_close($ch);
 
     $prediction_data = new SimpleXMLElement($xml_str);
 
