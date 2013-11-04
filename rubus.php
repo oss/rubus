@@ -21,19 +21,23 @@ $stops = magic_stop_matcher($index, $merge_stops, $term);
 print_r($stops);
 
 if(!empty($stops)) {
-    $nextbus_predictions = get_predictions_from_nextbus($route_config, $stops);
 
-    // build the message.
-    $message = "";
-    $message .= $stops[0]."\n";
-    foreach($nextbus_predictions as $stop => $times)
-    {
-        //only pick the first three times.
-        $times = array_splice($times, 0, 3);
-        if(!empty($times))
+    try {
+        $nextbus_predictions = get_predictions_from_nextbus($route_config, $stops);
+        // build the message.
+        $message = "";
+        $message .= $stops[0]."\n";
+        foreach($nextbus_predictions as $stop => $times)
         {
-            $message .= "$stop ".implode(' ', $times). "\n";
+            //only pick the first three times.
+            $times = array_splice($times, 0, 3);
+            if(!empty($times))
+            {
+                $message .= "$stop ".implode(' ', $times). "\n";
+            }
         }
+    } catch (Exception $e) {
+        $message = "RUBUS is temporarily unavailable. Please try again.\n";
     }
 
 } else {
